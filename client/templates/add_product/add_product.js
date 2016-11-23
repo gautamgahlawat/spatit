@@ -14,7 +14,7 @@ Template.add_product.events({
 
 			ProductsImages.insert(fsFile, function(err, result){
 				if(!err){
-					var productImage = '/cfs/files/ProductsImages'+result._id;					
+					var productImage = '/cfs/files/ProductsImages/'+result._id;					
 					
 					Products.insert({
 						name:name,
