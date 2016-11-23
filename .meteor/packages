@@ -26,3 +26,4 @@ mrt:flash-messages
 cfs:standard-packages
 accounts-ui
 accounts-password
+cfs:gridfs
